@@ -1,0 +1,12 @@
+{"EVENT_TIME": "{{date.now("dddd, MMMM Do YYYY, h:mm:ss a")}}",
+    "TICKER": "{{random.arrayElement(
+        ["ABCD", "CDEF", "IJKL", "MNOP", "QRST"]
+    )}}",
+    "PRICE": "{{random.number(
+        {
+            "min":500,
+            "max":1000
+        }
+    )}}",
+    "ID": "{{random.uuid}}"
+}

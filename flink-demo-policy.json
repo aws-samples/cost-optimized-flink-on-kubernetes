@@ -1,0 +1,31 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kinesis:ListStreams",
+                "kinesis:EnableEnhancedMonitoring",
+                "kinesis:ListShards",
+                "kinesis:UpdateShardCount",
+                "kinesis:DescribeLimits",
+                "kinesis:ListStreamConsumers",
+                "kinesis:DisableEnhancedMonitoring"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "kinesis:*",
+            "Resource": "arn:aws:kinesis:us-west-2:333046352399:stream/ExampleInputStream"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": [
+                "arn:aws:s3:::<<S3_Bucket>>",
+                "arn:aws:s3:::<<S3_Bucket>>/*"
+            ]
+        }
+    ]
+}
