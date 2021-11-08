@@ -68,11 +68,11 @@ The Flink streaming application will read dummy Stock ticker prices send to a Am
 
 *   Deploy Flink on EKS
 
-    Modify the yaml file [jobmanager-application-ha.yaml](./jobmanager-application-ha.yaml) and replace the <<ACCOUNT_ID>>, <<AWS Region>>, <<S3_Bucket>> with respective values.
+    Modify the yaml file [jobmanager-application-ha.yaml](./jobmanager-application-ha.yaml) and replace the ACCOUNT_ID, REGION, S3_BUCKET with respective values.
 
-    Modify the yaml file [taskmanager-job-deployment.yaml](./taskmanager-job-deployment.yaml) and replace the <<ACCOUNT_ID>>, <<AWS Region>> with respective values.
+    Modify the yaml file [taskmanager-job-deployment.yaml](./taskmanager-job-deployment.yaml) and replace the ACCOUNT_ID, REGION with respective values.
 
-    Modify the yaml file [flink-configuration-configmap.yaml](./flink-configuration-configmap.yaml) and replace the <<S3_Bucket>> with the bucket name.
+    Modify the yaml file [flink-configuration-configmap.yaml](./flink-configuration-configmap.yaml) and replace the S3_BUCKET with the bucket name.
 
     ```
     chmod +x install.sh
