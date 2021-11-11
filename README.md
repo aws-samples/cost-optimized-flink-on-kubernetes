@@ -66,7 +66,7 @@ The Flink streaming application will read dummy Stock ticker prices send to a Am
     docker push <<Account ID>>.dkr.ecr.<<AWS Region>>.amazonaws.com/flink-demo:latest
     ```
 
-*   Deploy Flink on EKS
+*   Deploy Flink on EKS ( files are in the install folder )
 
     Modify the yaml file [jobmanager-application-ha.yaml](./jobmanager-application-ha.yaml) and replace the ACCOUNT_ID, REGION, S3_BUCKET with respective values.
 
