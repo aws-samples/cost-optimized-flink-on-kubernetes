@@ -1,6 +1,6 @@
 ## Running Cost Optimized Flink workloads on Kubernetes using EC2 Spot Instances and Amazon Elastic Kubernetes Service
 
-This GitHub repository contains sample configuration files for running Apache Flink on Kubernetes using Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon EC2 Spot Instances. We recommend reading this blog post for more information on this topic. The blog also contains the detailed tutorial for the step-by-step instructions below. 
+This GitHub repository contains sample configuration files for running Apache Flink on Kubernetes using Amazon Elastic Kubernetes Service (Amazon EKS) and Amazon EC2 Spot Instances. We recommend reading this blog [post](https://aws.amazon.com/blogs/compute/optimizing-apache-flink-on-amazon-eks-using-amazon-ec2-spot-instances/) for more information on this topic. The blog also contains the detailed tutorial for the step-by-step instructions below. 
 
 **What you’ll run**
 
